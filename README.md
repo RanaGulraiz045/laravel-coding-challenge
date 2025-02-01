@@ -1,3 +1,9 @@
+# Design Patterns Used in This Project
+
+## MVC Architecture (Model-View-Controller)
+
+This Laravel application follows the Model-View-Controller (MVC) architectural pattern, which is a standard design pattern that separates the application into three interconnected components. This separation helps to manage complex applications, because you can focus on one aspect at a time, and it increases maintainability and scalability.
+
 # Laravel Project Setup Guide
 
 This document outlines the steps necessary to get this Laravel application up and running on your local development environment.
