@@ -38,6 +38,7 @@ Follow these steps to install the application:
 
 5. **Setup Database**
 
+   Update the Database Credentials before runing the following commands
    ```bash
    php artisan migrate
    php artisan db:seed
@@ -47,4 +48,4 @@ Follow these steps to install the application:
    ```bash
    php artisan serve
 
-Check the API documentation using on localhost:Port/api/documentation
+We can check the API documentation using on localhost:Port/api/documentation
