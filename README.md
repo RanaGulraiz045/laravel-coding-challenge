@@ -28,7 +28,7 @@ Follow these steps to install the application:
 
 2. **Install Packages**
 
-   Run following command in project terminal
+   Run the following command in the project terminal
    ```bash
    composer install
 
@@ -44,7 +44,7 @@ Follow these steps to install the application:
 
 5. **Setup Database**
 
-   Update the Database Credentials before runing the following commands
+   Update the Database Credentials before running the following commands
    ```bash
    php artisan migrate
    php artisan db:seed
@@ -54,4 +54,4 @@ Follow these steps to install the application:
    ```bash
    php artisan serve
 
-We can check the API documentation using {project-url}/api/documentation
+We can check the API documentation on {project-url}/api/documentation
