@@ -23,21 +23,28 @@ Follow these steps to install the application:
 2. **Install Packages**
 
    Run following command in project terminal
+   ```bash
    composer install
 
 3. **Setup Env**
 
-   cp .env.example .env
-   Update Database credentials in .env
+   ```bash
+   cp .env.example .env   
+
+4. **Generate Application Key**
+
+   ```bash
    php artisan key:generate
 
-4. **Setup Database**
+5. **Setup Database**
 
+   ```bash
    php artisan migrate
    php artisan db:seed
 
-5. **Run Project**
+6. **Run Project**
 
+   ```bash
    php artisan serve
 
 Check the API documentation using on localhost:Port/api/documentation
