@@ -54,4 +54,4 @@ Follow these steps to install the application:
    ```bash
    php artisan serve
 
-We can check the API documentation using on localhost:Port/api/documentation
+We can check the API documentation using {project-url}/api/documentation
